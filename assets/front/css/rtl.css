@@ -1,0 +1,245 @@
+/* body,
+html{
+    direction: rtl!important;
+}
+.social_home {
+    margin-right: 0px;
+    padding-right: 0px!important;
+}
+.about-content,
+.section-title,
+.skill-area-line .skill-box,
+#eduandex .title,
+.single-accordion .accordion-header .title,
+.single-accordion .accordion-body,
+.video-box .video .title,
+.info.service-category .heading
+{
+    text-align: right;
+}
+.info.service-category .service-list li .service i,
+.blog-aside .categori .categori-list li a i
+{
+    margin-right: auto;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+.skill-area .skill-list .single-list-ul li p {
+    padding-left: 0px;
+    padding-right: 30px;
+    text-align: right;
+}
+.skill-area .skill-list .single-list-ul li p::before {
+    left: auto;
+    right: 0px;
+}
+.skill-area .skill-list .single-list-ul{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#eduandex .education-list .single-education {
+    border-left: 0px;
+    border-right: 3px solid rgba(0, 0, 0, 0.1);
+    padding-left: 0px;
+    padding-right: 20px;
+    text-align: right;
+}
+ 
+#eduandex .education-list .single-education::before {
+    left: auto;
+    right: -8px;
+}
+    
+#eduandex .education-list .single-education::after {
+    left: auto;
+    right: -8px;
+}
+    
+.owl-carousel{
+    direction: ltr;
+}
+
+
+.myclient-area .owl-carousel .owl-controls .owl-nav .owl-prev i, 
+.myclient-area .owl-carousel .owl-controls .owl-nav .owl-next i
+{
+    transform: rotate(180deg);
+}
+
+.myclient-area .owl-carousel .owl-controls .owl-nav .owl-prev
+{
+right: auto;
+left: 50px;
+}
+
+.myclient-area .owl-carousel .owl-controls .owl-nav .owl-next
+{
+right: auto;
+left: 20px;
+}
+
+
+.single-accordion .accordion-header .title {
+    padding-left: 0px;
+    padding-right: 34px;
+}
+.single-accordion .accordion-header .title i {
+    left: auto;
+    right: 0;
+}
+.blogs .blog-box .blog-details .post-meta-one{
+    direction: rtl;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.blogs .blog-box .blog-details{
+    text-align: right;
+}
+
+.blogs .blog-box .blog-details .post-meta-one li:first-child {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.testimonial .single-review{
+    direction: rtl;
+    text-align: right;
+}
+.single-review .reviewr .img img {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.breadcrumb-area .links li:first-child {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.breadcrumb-area .links li{
+    margin-right: 0px;
+}
+.breadcrumb-area .links li::after {
+    right: auto;
+    left: -17px;
+    transform: rotate(180deg);
+    top: 0px;
+}
+input[type="email"]{
+    direction: ltr;
+}
+.portfolio-details .content{
+    text-align: right;
+}
+.portfolio-details .info ul{
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: right;
+}
+.aside-contact-form .heading{
+    text-align: right;
+}
+.aside-contact-form .title{
+    text-align: right;
+}
+.blog-aside .categori .categori-list,
+.blog-aside .recent-post-widget .post-list,
+.blog-aside .archives .archives-list,
+.blog-details .blog-content .content .post-meta
+{
+    padding-right: 0px;
+    margin-right: 0px;
+    text-align: right;
+}
+.blog-aside .recent-post-widget .post-list li .post .post-img {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.footer .social-link ul{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.blog-details .blog-content .content{
+    text-align: right;
+}
+.blog-details .blog-content .content .post-meta li a {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav.ml-auto{
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+.breadcrumb-area{
+    text-align: right;
+}
+.breadcrumb-area .links{
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: right;
+}
+.blog-aside .serch-form button {
+    right: auto;
+    left: 0;
+}
+.blog-aside .serch-form input {
+    padding: 0px 20px 0px 50px;
+}
+.navbar-nav,
+.about-area .about-content .info-list 
+{
+    margin-top: 0px;
+    padding-right: 0px;
+}
+
+.language{
+    text-align: right;
+    direction: rtl;
+}
+ul.language-dropdown{
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: right;
+}
+
+a.language-btn {
+    padding-right: 0px!important;
+    padding-left: 15px!important;
+    text-align: right;
+}
+a.language-btn i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    margin-right: auto;
+}
+.language-btn::after {
+    right: auto;
+    left: 0px;
+    top: -1px;
+}
+ul.language-dropdown li a{
+    text-align: right;
+}
+
+ul.language-dropdown li a::before {
+	left: auto;
+	right: 0;
+}
+
+ul.language-dropdown li a:hover::before {
+	width: 100%
+	
+}
+.language {
+    margin-left: 0px;
+    margin-right: 17px;
+}
+
+.item-hover .hover-content {
+    text-align: right;
+    left: auto;
+    right: 20px;
+}
+.portfolio-details .main-image {
+    direction: ltr;
+}
+ */
