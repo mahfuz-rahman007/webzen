@@ -47,10 +47,10 @@
                               <div class="col-lg-10">
                                     <div class="form-group row">
                                         <div class="col-sm-12">
-                                            <img class="mw-400 mb-3 show-img img-demo" src="{{ asset('assets/front/img/homearea_bg.jpg') }}" alt="">
+                                            <img class="mw-400 mb-3 show-img img-demo" src="{{ asset('assets/front/img/herosection_bg.jpg') }}" alt="">
                                             <div class="custom-file">
-                                                <label for="homearea_bg" class="custom-file-label">{{ __('Choose New Image') }}</label>
-                                                <input type="file" name="homearea_bg" id="homearea_bg" class="custom-file-input up-img">
+                                                <label for="herosection_bg" class="custom-file-label">{{ __('Choose New Image') }}</label>
+                                                <input type="file" name="herosection_bg" id="herosection_bg" class="custom-file-input up-img">
                                                 <p class="text-block text-info">
                                                     {{ __('Upload 1920X970 (Pixel) size image for best quality. Only jpg,jpeg and png image is allowed') }}
                                                 </p>

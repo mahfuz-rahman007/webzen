@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Start Header Section -->
-    <div class="page-header" style="background-image: url('{{ asset('assets/front/img/breadcrumb_image_.jpg') }}');">
+    <div class="page-header" style="background-image: url('{{ asset('assets/front/img/'.$commonsetting->breadcrumb_image) }}');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

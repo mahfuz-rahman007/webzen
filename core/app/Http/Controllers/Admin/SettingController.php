@@ -85,7 +85,7 @@ class SettingController extends Controller
             @unlink('assets/front/img/' . $commonsetting->breadcrumb_image);
             $file = $request->file('breadcrumb_image');
             $extension = $file->getClientOriginalExtension();
-            $breadcrumb_image = 'breadcrumb_image_' . '.' . $extension;
+            $breadcrumb_image = 'breadcrumb_image_'. time(). '.' . $extension;
             $file->move('assets/front/img/', $breadcrumb_image);
             $commonsetting->breadcrumb_image = $breadcrumb_image;
         }

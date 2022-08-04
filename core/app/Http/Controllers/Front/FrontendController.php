@@ -52,7 +52,7 @@ class FrontendController extends Controller
         session()->put('lang', $lang);
         app()->setLocale($lang);
 
-        return redirect()->back();
+        return redirect(route('front.index'));
     }
 
     public function about()

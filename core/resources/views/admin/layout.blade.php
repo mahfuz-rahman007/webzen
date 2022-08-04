@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webzen</title>
-    <link rel="shortcut icon" href="" type="image/png">
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css">
+    <title>{{ __('Admin Panel | ') }} {{ $setting->website_title }}</title>
+    <link rel="shortcut icon" href="{{ asset('assets/front/img/'.$commonsetting->fav_icon) }}" type="image/png">
+
     @include('admin.partials.styles')
     @yield('styles')
 </head>

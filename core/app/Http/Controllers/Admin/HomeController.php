@@ -22,7 +22,7 @@ class HomeController extends Controller
     public function update_home(Request $request)
     {
         $request->validate([
-            "homearea_bg" => "mimes:jpg,jpeg,png",
+            "herosection_bg" => "mimes:jpg,jpeg,png",
             'homearea_name' => 'required|max:30',
             'homearea_text' => 'required|max:250'
         ]);
@@ -30,11 +30,15 @@ class HomeController extends Controller
         $home = Setting::where('language_id', $lang)->first();
 
         $setting  = Setting::first();
-        if($request->hasFile('homearea_bg')){
-            @unlink('assets/front/img/'.$setting->homearea_bg);
+        if($request->hasFile('herosection_bg')){
 
-            $file = $request->file('homearea_bg');
-            $file->move('assets/front/img/','homearea_bg.jpg',);
+            @unlink('assets/front/img/herosection_bg');
+
+            $file = $request->file('herosection_bg');
+            $extension = $file->getClientOriginalExtension();
+            $herosection_bg = 'herosection_bg' . '.' . $extension;
+            $file->move('assets/front/img/', $herosection_bg);
+
         }
 
         $setting->save();

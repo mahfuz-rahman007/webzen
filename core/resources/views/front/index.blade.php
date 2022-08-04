@@ -5,7 +5,7 @@
 @section('content')
 
     <!-- Start Header Section -->
-    <div class="banner" style="background-image : url('{{ asset('assets/front/img/homearea_bg.jpg') }}');">
+    <div class="banner" style="background-image : url('{{ asset('assets/front/img/herosection_bg.jpg') }}');">
         <div class="overlay">
             <div class="container">
                 <div class="intro-text">
